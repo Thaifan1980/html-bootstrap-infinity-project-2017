@@ -1,0 +1,30 @@
+.masthead {
+  text-align: center;
+
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+  .intro-text {
+    padding-top: 15rem;
+    padding-bottom: 18.75rem;
+    @include heading-font;
+    font-size: 58px;
+    line-height: 60px;
+
+    .intro-heading {
+      display: block;
+      color: #fff;
+    }
+    .intro-lead-in {
+      display: block;
+      color: #2d2d2d;
+    }
+  }
+}
+
+@media(min-width:768px) {
+
+}

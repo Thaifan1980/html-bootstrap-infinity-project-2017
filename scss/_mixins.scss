@@ -1,0 +1,20 @@
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Font Mixins
+@mixin body-font {
+  font-family: 'Mada', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.015rem;
+}
+@mixin heading-font {
+  font-family: 'Homenaje', sans-serif;
+  font-size: 3.125rem;
+  letter-spacing: -0.015rem;
+}

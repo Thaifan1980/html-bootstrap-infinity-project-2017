@@ -1,0 +1,23 @@
+#cookies-information {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  background-color: rgba(34,34,34,0.83);
+  z-index: 1000;
+  padding: 2rem;
+
+  p {
+    font-size: 0.875rem;
+    margin: 0;
+  }
+
+  button {
+    @include body-font;
+    font-size: 0.875rem;
+  }
+
+  .btn-sm {
+    padding: .05rem .5rem !important;
+  }
+}

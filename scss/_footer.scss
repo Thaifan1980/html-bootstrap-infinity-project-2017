@@ -1,0 +1,12 @@
+footer {
+  background-color: #242424;
+  p {
+    @include body-font;
+    color: #8f8f8f;
+    font-size: 0.75rem;
+    padding: 1.5rem 0;
+    margin: 0;
+    line-height: 1.18rem;
+
+  }
+}
